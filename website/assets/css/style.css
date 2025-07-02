@@ -1,3 +1,188 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+ .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.Box {
+  color: grey;
+  margin: 0 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+
+.Box:hover {
+  background-color: #555;
+  color: #7d7d7b;
+}
+
+  .tagline {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center; 
+  height: 800px;
+  display: flex;              
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: black; 
+  flex-direction: column; 
+}
+
+.tagline h1 {
+  font-size: 150px;
+  background-color: white;
+}
+
+.tagline h2 {
+  font-size: 70px;
+  margin: 50px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.text-section h1 strong {
+  font-weight: bold;
+}
+
+.text-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.image-content .circle-image {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-content-2 .circle-image {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+}
+
+.container-2 {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  width: 32%;
+  text-align: left;
+}
+
+.project-image {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.image1 {
+  background-image: url('../img/big-project-image.png');
+}
+
+.image2 {
+  background-image: url('../img/big-project-image.png');
+}
+
+.image3 {
+  background-image: url('../img/big-project-image.png');
+}
+
+.project-title {
+  color: blue;
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.project-desc {
+  font-size: 16px;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
